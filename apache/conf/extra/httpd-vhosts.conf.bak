@@ -1,0 +1,11 @@
+# Auto-generated Virtual Hosts 
+<VirtualHost *:80> 
+    DocumentRoot "C:\server\host\newproject" 
+    ServerName www.newproject.com 
+    <Directory "C:\server\host\newproject"> 
+        Options Indexes FollowSymLinks 
+        AllowOverride All 
+        Require all granted 
+    </Directory> 
+</VirtualHost> 
+ 
